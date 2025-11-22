@@ -30,7 +30,7 @@ A simple, modern landing page for your Raspberry Pi Homelab, built with Next.js,
     ```
 
 3.  **Access the Dashboard**:
-    Open your browser and navigate to `http://<your-pi-ip>:3000` (e.g., `http://raspberrypi.local:3000` or `http://192.168.1.100:3000`).
+    Open your browser and navigate to `http://<your-pi-ip>:8080` (e.g., `http://raspberrypi.local:8080` or `http://192.168.1.100:8080`).
 
 ## Customization
 
@@ -73,4 +73,4 @@ To run locally without Docker:
     npm run dev
     ```
 
-3.  Open `http://localhost:3000`.
+3.  Open `http://localhost:8080`.
