@@ -1,0 +1,13 @@
+services:
+  homelab-landing:
+    build: .
+    container_name: homelab-landing
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+
+# If you want to connect to other containers, uncomment and configure networks
+# networks:
+#   - homelab
